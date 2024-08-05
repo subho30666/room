@@ -12,11 +12,11 @@ const Navbar = () => {
           src="/icons/logo.svg"
           width={32}
           height={32}
-          alt="yoom logo"
+          alt="Room logo"
           className="max-sm:size-10"
         />
         <p className="text-[26px] font-extrabold text-white max-sm:hidden">
-          YOOM
+          Room
         </p>
       </Link>
       <div className="flex-between gap-5">
