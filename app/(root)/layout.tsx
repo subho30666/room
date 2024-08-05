@@ -1,15 +1,13 @@
-import React, { ReactNode } from 'react'
-import { Metadata } from 'next';
+import { ReactNode } from 'react';
 
-export const metadata: Metadata = {
-  title: 'ROOM',
-  description: 'A workspace for your team, powered by Stream Chat and Clerk.',
+import StreamVideoProvider from '@/providers/StreamClientProvider';
+
+const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
+  return (
+    <main>
+      <StreamVideoProvider>{children}</StreamVideoProvider>
+    </main>
+  );
 };
 
-function RootLayout({children}:{children:ReactNode}) {
-  return (
-    <main>{children}</main>
-  )
-}
-
-export default RootLayout
+export default RootLayout;
