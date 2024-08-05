@@ -4,7 +4,7 @@
 
   <br />
     <a href="https://room-liard-ten.vercel.app" target="_blank">
-      <img src="https://ibb.co/KWKKnBs" alt="Project Banner" width="48">
+      <img src="https://ibb.co/KWKKnBs" alt="Project Banner" width="400" >
     </a>
   
   <br />
